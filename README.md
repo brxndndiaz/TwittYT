@@ -14,7 +14,7 @@ To run the TwittYT project, make sure you have the following prerequisites insta
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/brxndxndiaz/TwittYT.git
+   git clone https://github.com/brxndndiaz/TwittYT.git
 
 2. Navigate to the project directory:
    cd TwittYT
