@@ -1,6 +1,8 @@
 # TwittYT
 
-TwittYT is a Node.js project that posts random YouTube videos on Twitter at a scheduled interval. It uses the YouTube Data API and the Twitter API to fetch videos and post tweets. You can configure the project to run at specific times and customize the content to suit your needs.
+TwittYT is a Node.js project that posts random YouTube videos on Twitter at a scheduled interval. 
+It uses the YouTube Data API and the Twitter API to fetch videos and post tweets. 
+You can configure the project to run at specific times and customize the content to suit your needs.
 
 ## Prerequisites
 
@@ -26,18 +28,12 @@ To run the TwittYT project, make sure you have the following prerequisites insta
    - Create a `.env` file in the project directory.
    - Add the following environment variables to the `.env` file and replace the placeholder values with your actual API credentials:
 
-     YOUTUBE_API_KEY=your_youtube_api_key
-     TWITTER_API_KEY=your_twitter_api_key
-     TWITTER_API_SECRET=your_twitter_api_secret
-     TWITTER_ACCESS_TOKEN=your_twitter_access_token
-     TWITTER_ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
-     TWITTER_BEARER_TOKEN=your_twitter_bearer_token
-
 ## Configuration
 
 You can configure the schedule and behavior of the TwittYT project by modifying the code.
 
-- To change the posting schedule, open the `index.js` file and locate the `CronJob` initialization code. Update the Cron expression to set the desired interval. For example, to run every 12 hours, use "0 */12 * * *". Refer to the Cron syntax documentation for more information.
+- To change the posting schedule, open the `index.js` file and locate the `CronJob` initialization code. 
+  Update the Cron expression to set the desired interval. For example, to run every 12 hours, use "0 */12 * * *". Refer to the Cron syntax documentation for more information.
 
 - Customize the tweet content in the `index.js` file. The `twitterCaption` variable holds the text that will be posted along with the YouTube video URL. You can modify it according to your preferences.
 
